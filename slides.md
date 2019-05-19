@@ -47,24 +47,43 @@ For reliable webapps
 
 Generate JavaScript with
 
-*great performance* and **no runtime exceptions**.
+_*great performance*_ and _*no runtime exceptions*_.
 
 ---
 
--> Functional
--> Statically typed
+## Elm
+
+A pure functional language
+Everything is immutable
+Functions have no side effects
 
 ---
 
-# Functional
+## Risks
+
+Small ecosystem
+Learning curve
+How will we hire people?
+
+---
+
+## Rewards
+
+Fewer rendering bugs
+More maintainable code
+Growing as developers
+
+[From Rails to Elm and Haskell](https://youtu.be/5CYeZ2kEiOI)
+by Richard Feldman
+
+
+---
+
+## Pure functions
 
 `input -> function -> output`
 
-# Pure
-
 Data in, data out
-
-# Result
 
 - No side effects
 - Referential transparency
@@ -72,11 +91,28 @@ Data in, data out
 
 ---
 
-# Static typing
+## Static typing
 
--- TODO: Show type error example
 At compile time
-Known for nice error messages
+
+---
+
+## Known for nice error messages
+
+~~~
+This `user` record does not have a `naame` field:
+
+17| myUser = user.naame
+                  ^^^^^
+
+This is usually a typo.
+Here are the `user` fields that are most similar:
+
+    { name : String
+    }
+
+So maybe naame should be name?
+~~~
 
 ---
 
