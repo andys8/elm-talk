@@ -279,11 +279,11 @@ main =
 ---
 
 
-## Example: Counter
+## Demo: Counter
 
-[Ellie link with implementation](https://ellie-app.com/5zM2FXJ69KYa1)
+[Ellie: Counter implementation](https://ellie-app.com/5zM2FXJ69KYa1)
 
-## Counter: Possible Refactorings
+Possible Refactorings
 
 - Add *Reset* button
 - Add Msg `ChangeWith (Int -> Int)`
@@ -331,14 +331,15 @@ ReasonML
 
 ---
 
-# Talks
+# Learning Resources
 
-- [Toward a Better Front End Architecture](https://www.youtube.com/watch?v=EDp6UmaA9CM)
-- [Richard Feldman - Scaling Elm Apps](https://www.youtube.com/watch?v=DoA4Txr4GUs)
+- [Toward a Better Front End Architecture](https://youtu.be/EDp6UmaA9CM)
+- [Richard Feldman - Scaling Elm Apps](https://youtu.be/DoA4Txr4GUs)
 
 TODO: Elm Guide
 TODO: Evan Talk
 TODO: Feldman Course
+TODO: Elm Slack
 
 ---
 
@@ -350,3 +351,13 @@ TODO: Feldman Course
 >
 > If you ❤️ that language start teaching it.
 > Get people involved. Own it!
+
+---
+
+## Controlled Experiment
+
+_Try out_ Elm.
+
+1. Find a *low-risk project* that's a good fit
+2. Get it *into production*
+3. *Expand* incrementally or *back out*
