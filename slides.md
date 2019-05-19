@@ -101,9 +101,13 @@ by Richard Feldman
 
 ## Pure functions
 
-`input -> function -> output`
+Data *in*, data *out*
 
-Data in, data out
+
+\     Input   +--------------+  Output
+\ +---------->+   Function   +---------->
+\             +--------------+
+
 
 - No side effects
 - Referential transparency
@@ -113,7 +117,9 @@ Data in, data out
 
 ## Strong type system
 
-At compile time
+Errors at _compile time_
+
+"If it compiles, it works"
 
 ---
 
