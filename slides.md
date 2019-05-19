@@ -378,9 +378,9 @@ main =
 
 ## Demo: Counter
 
-[Ellie: Counter implementation](https://ellie-app.com/5zM2FXJ69KYa1)
+[Ellie: Counter implementation](https://ellie-app.com/5zSqhMHGcTya1)
 
-Possible Refactorings
+Possible Changes:
 
 - Add *Reset* button
 - Add Msg `ChangeWith (Int -> Int)`
