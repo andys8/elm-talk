@@ -271,20 +271,13 @@ We asked, but something went wrong.
 _Success_
 Everything worked, and here's the data.
 
----
-
-# HTML
-
-Comparison to JSX
-
 -------------------------------------------------
 
 # Getting started
 
 - The Elm Architecture
-  - Compare with React/Redux
 - Ellie
-- create-elm-app
+- Create-Elm-App
 
 ---
 
@@ -396,6 +389,19 @@ Possible Refactorings
 - Add Msg `ChangeWith (Int -> Int)`
 - Refactor buttons to use ChangeWith
 - Add *Double* button
+
+---
+
+## Create-Elm-App
+
+[Create-Elm-App User Guide](https://github.com/halfzebra/create-elm-app/blob/master/template)
+
+- No build configuration
+- Like `create-react-app`
+- Webpack based
+- Hot module reloading
+- Assets, CSS, and JS
+- Tests
 
 -------------------------------------------------
 
