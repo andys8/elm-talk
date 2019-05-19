@@ -1,5 +1,5 @@
 %title: Functional Programming with Elm
-%author: andys8 - jamb.it
+%author: andys8 - jambit.com
 %date: 2019
 
 # Agenda
@@ -170,11 +170,67 @@ Comparison to JSX
 
 ---
 
+# Counter Example with Elm Architecture
+
+---
+
+```
+type alias Model =
+    { count : Int }
+
+
+initialModel : Model
+initialModel =
+    { count = 0 }
+```
+
+---
+
+```
+type Msg
+    = Increment
+    | Decrement
+
+
+update : Msg -> Model -> Model
+update msg model =
+    case msg of
+        Increment ->
+            { model | count = model.count + 1 }
+        Decrement ->
+            { model | count = model.count - 1 }
+```
+
+---
+
+```
+view : Model -> Html Msg
+view model =
+    div []
+        [ div [] [ text <| String.fromInt model.count ]
+        , button [ onClick Decrement ] [ text "-1" ]
+        , button [ onClick Increment ] [ text "+1" ]
+        ]
+```
+
+---
+
+```
+main : Program () Model Msg
+main =
+    Browser.sandbox
+        { init = initialModel
+        , view = view
+        , update = update
+        }
+```
+
+---
+
+
 ## Example: Counter
 
 [Ellie link with implementation](https://ellie-app.com/5zM2FXJ69KYa1)
-
----
 
 ## Counter: Possible Refactorings
 
