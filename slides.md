@@ -8,8 +8,9 @@
   - Purpose
   - Features
 - JavaScript to Elm
-  - Function
+  - Functions
   - Types
+  - Syntax
 - Getting started
   - The Elm Architecture
   - Ellie
@@ -318,7 +319,7 @@ An Elm program contains:
 
 ## Model
 
-~~~
+~~~elm
 type alias Model =
     { count : Int }
 
@@ -332,7 +333,7 @@ initialModel =
 
 ## Update
 
-~~~
+~~~elm
 type Msg
     = Increment
     | Decrement
@@ -352,7 +353,7 @@ update msg model =
 
 ## View
 
-```
+```elm
 view : Model -> Html Msg
 view model =
     div []
@@ -366,7 +367,7 @@ view model =
 
 ## Program
 
-```
+```elm
 main : Program () Model Msg
 main =
     Browser.sandbox
@@ -377,7 +378,6 @@ main =
 ```
 
 ---
-
 
 ## Demo: Counter
 
@@ -456,7 +456,7 @@ Guides, Talks and Workshops
 
 ---
 
-## Need Help?
+## Help
 
 - [Slack](https://elmlang.herokuapp.com)
 - [Discourse](https://discourse.elm-lang.org)
