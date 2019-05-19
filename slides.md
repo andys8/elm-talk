@@ -1,18 +1,23 @@
-%title: Vim in Elm in Vim
-%author: andys8 - jambit.com
+%title: Functional Programming with Elm
+%author: andys8 - jamb.it
 %date: 2019
 
 # Agenda
 
-- What is elm?
+- Elm
+  - Purpose
   - Features
 - JavaScript to Elm
   - Function
   - Types
-- The Elm Architecture
-- Get started / Ecosystem
-    - Ellie
-    - create-elm-app
+- Getting started
+  - The Elm Architecture
+  - Ellie
+  - create-elm-app
+- Vim in Elm
+  - The Vim editor
+  - Implementation
+  - Tests
 
 ---
 
@@ -32,79 +37,62 @@
 -> MMMMMMmyo++oosyyyysoo++oydNMMMMM
 -> MMMMMMMMMNdhyssoossyydmMMMMMMMMM
 
----
+-------------------------------------------------
 
-
-# Introduction
-
-## Elm
-
-### A delightful language
+# Elm - A delightful language
 
 For reliable webapps
 
-+++
+---
 
 Generate JavaScript with
 
-**great performance** and **no runtime exceptions**.
+*great performance* and **no runtime exceptions**.
 
-+++
+---
 
-**Functional** and **statically typed**
-
-+++
-
-Compiles to
-
-![Javascript](assets/javascript.png)
-
-Note:
-
-* Webpack and JS build steps can be used
-* Javascript integration
+-> Functional
+-> Statically typed
 
 ---
 
 # Functional
 
-```
-input -> function -> output
-```
-
-+++
+`input -> function -> output`
 
 # Pure
 
 Data in, data out
 
-+++
+# Result
 
-* No side effects
-* Referential transparency
-* Testable
-
-+++
-
-# Declarative
-
-vs imperative
-
----
-
-# Currying
-
----
-
-# Piping
+- No side effects
+- Referential transparency
+- Testable
 
 ---
 
 # Static typing
 
-![Type mismatch](assets/type-mismatch.png)
-
+-- TODO: Show type error example
 At compile time
+Known for nice error messages
+
+---
+
+# Immutable data
+
+by default
+
+-------------------------------------------------
+
+# From JavaScript to Elm
+
+---
+
+TODO: Javascript Code -> Strikethrough -> Elm Code + Types
+TODO: In JS add is exception or undefined, in Elm it's Int
+TODO: Example with maybe, extend to be Result
 
 ---
 
@@ -126,6 +114,14 @@ Explicit data flow
 
 ---
 
+# Currying
+
+---
+
+# Pipeline Operator
+
+---
+
 # Union types
 
 ---
@@ -136,13 +132,114 @@ Maybe
 
 ---
 
+# RemoteData
+
+As an example
+
+```
+type RemoteData e a
+    = NotAsked
+    | Loading
+    | Failure e
+    | Success a
+```
+
+[RemoteData package](https://package.elm-lang.org/packages/krisajenkins/remotedata/latest/RemoteData)
+
+---
+
+- NotAsked - We haven't asked for the data yet.
+- Loading - We've asked, but haven't got an answer yet.
+- Failure - We asked, but something went wrong.
+- Success - Everything worked, and here's the data.
+
+---
+
 # HTML
 
 Comparison to JSX
 
+-------------------------------------------------
+
+# Getting started
+
+- The Elm Architecture
+  - Compare with React/Redux
+- Ellie
+- create-elm-app
+
+---
+
+## Example: Counter
+
+[Ellie link with implementation](https://ellie-app.com/5zM2FXJ69KYa1)
+
+---
+
+## Counter: Possible Refactorings
+
+- Add *Reset* button
+- Add Msg `ChangeWith (Int -> Int)`
+- Refactor buttons to use ChangeWith
+- Add *Double* button
+
+-------------------------------------------------
+
+# Vim in Elm
+
+---
+
+## The Vim editor
+
+Known for "HJKL" keybindings
+
+> Vim is a highly configurable _text editor_
+> for _efficiently_ creating and changing any kind of text.
+
+<https://www.vim.org/>
+
+---
+
+## Implementation in Elm
+
+Demo: Implementation and Tests
+
+- [Demo](https://andys8.github.io/vim-emulation/)
+- [Code](https://github.com/andys8/vim-emulation)
+
+-------------------------------------------------
+
 # Summary
 
-## Getting started
+TODO
 
-* [Toward a Better Front End Architecture](https://www.youtube.com/watch?v=EDp6UmaA9C)
-* [Richard Feldman - Scaling Elm Apps](https://www.youtube.com/watch?v=DoA4Txr4GUs)
+---
+
+# Alternatives
+
+PureScript
+TypeScript
+ClojureScript
+ReasonML
+
+---
+
+# Talks
+
+- [Toward a Better Front End Architecture](https://www.youtube.com/watch?v=EDp6UmaA9CM)
+- [Richard Feldman - Scaling Elm Apps](https://www.youtube.com/watch?v=DoA4Txr4GUs)
+
+TODO: Elm Guide
+TODO: Evan Talk
+TODO: Feldman Course
+
+---
+
+[@tpflug on twitter](https://twitter.com/tpflug/status/908770909305090048)
+
+> “If only I had a job writing <Haskell|purescript|Elm|X>”
+>
+> *STOP!*
+>
+> If you ❤️ that language start teaching it.
+> Get people involved. Own it!
