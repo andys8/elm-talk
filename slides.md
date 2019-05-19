@@ -187,6 +187,7 @@ function add(x, y) {
 const result = add(1, 2);
 ~~~
 
+^
 ## In Elm
 
 ~~~elm
@@ -221,7 +222,29 @@ result =
 
 ---
 
-## Records (like Objects)
+## Pipe operator |>
+
+```elm
+viewNames1 names =
+  String.join ", " (List.sort names)
+
+viewNames2 names =
+  names
+    |> List.sort
+    |> String.join ", "
+```
+^
+
+## Composition >>
+
+```elm
+viewNames3 =
+    List.sort >> String.join ", "
+```
+
+---
+
+## Records (Objects)
 
 ```elm
 type alias Point = { x:Float, y:Float }
