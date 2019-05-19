@@ -24,28 +24,25 @@
 
 ~~~
 
-                     `-://+oooooo++/:-.
-                `-/osssssoooooooossssso+:`
-              -/osssoo+/:-......-:/+oossss+:`
-            -+sssoo/.`               .:+ossso/`
-          .+ssso+-           ```....``  .:ossso-
-         -osss+.         `./+osyyyyyy+    `/osss/`
-        -osss/`       `:+syyyyyyyyyyo`      -osss+
-       .osss/       `/syyyyyyyyyyyy/``.://-  .osss/
-       +sss+      `/syyyyyyyyyyyy+--+syyyy+   :ssso.
-      .ssss-     .oyyyyyyyyyyyyo/+syyyyyyy:   `osss:
-      .ssss`    `syyyyyyyyyys++oyyyyyyyyys`    osss/
-      .ssss`    oyyyyyyyyyo++syyyyyyyyyys.     osss/
-      `osss:   .yyyyyyys+:+syyyyyyyyyyyo.     `osss:
-       +ssso`  -yyyyo/--+yyyyyyyyyyyys:`      /ssso`
-       .osss/   --.`` /syyyyyyyyyyys/`       -osss:
-        -osss+`     `+yyyyyyyyyys+-`        /osss/
-         .ossso:`   -syyyysso/:.`         -+osss:
-          `/ossso:`  ```````           `-+osss+.
-            .+ossso+:.              `-/oosss+-
-              `/ossssooo/:::---::/+ooossso/.
-                 .:+osssssssoossssssso+:-`
-                     `.-://++++//::-`
+                     .://+ooosoo++/:-`
+                `:+ssssssoooooossssss+:.
+              .+sssso/-.``     `.-/+ossso:`
+            .+ssso:.           ```  `:+ssso-
+           :ssso:`       `.:+osyyys:   .+sss+`
+          /sss+`      `:oyhhhhhhhhy.     :ssso`
+         :sss+`     .+yhhhhhhhhhho..-/+:  -sss+
+        `osso`    `/yhhhhhhhhhhs:/shhhhs   /sss-
+        -sss/    `shhhhhhhhhys+shhhhhhh+   -sss/
+        -sss:    shhhhhhhhyooyhhhhhhhhy`   .sss+
+        .sss/   :hhhhhhyo+syhhhhhhhhhs.    -sss/
+         osso`  +hhhyo/:ohhhhhhhhhhy/`     +sss.
+         -sss+` `::.``+hhhhhhhhhhy+.      :sss/
+          :sss+.    `shhhhhhhhs+-`      `/sss+`
+           -osso/.  .+oooo+/-.`       `:osss/`
+            `/ssso/-`               ./osss+.
+              ./ossso+:-..`````.-:+ossss/.
+                `./osssssssoossssssso/-`
+                    `.-:/++++++//:.`
 
 ~~~
 
