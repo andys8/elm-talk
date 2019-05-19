@@ -17,5 +17,5 @@ mdp -ti slides.md
 ## Tools
 
 * <https://github.com/visit1985/mdp>
-* <https://www.text-image.com/convert/>
+* <https://www.text-image.com/convert/ascii.html>
 * <http://asciiflow.com>

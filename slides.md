@@ -1,34 +1,39 @@
 %title: Vim in Elm in Vim
-%author: andys8 (jambit.com)
+%author: andys8 - jambit.com
 %date: 2019
 
-# Vim in Elm in Vim
+# Agenda
 
-Text
+- What is elm?
+  - Features
+- JavaScript to Elm
+  - Function
+  - Types
+- The Elm Architecture
+- Get started / Ecosystem
+    - Ellie
+    - create-elm-app
+
+---
+
+-> MMMMMMMMNmhysooo+oosyhdNMMMMMMMM
+-> MMMMMNds+++osyhhhhysoo++shNMMMMM
+-> MMMNho+osdNMMMMMMMMMMNdyo++yNMMM
+-> MMmo++ymMMMMMNmhyoooooMMNho+odMM
+-> Mdo+odMMMMMds/:::::::yMNNMms++hM
+-> No++dMMMMd+::::::::+hho+/hMNo++m
+-> d++sMMMNs::::::::+o+/::::dMMh++y
+-> h++yMMMs::::::/++/::::::oMMMd++s
+-> d++sMMm::::/os+/:::::::sNMMMh++y
+-> No++dMm+oshdo::::::::+dMMMMmo++m
+-> Mmo+odMMMMh/::::::+ymMMMMMdo++hM
+-> MMms++sdMMyssssydNNMMMMMmy++odMM
+-> MMMMdo++ohmNMMMMMMMMNmhs++ohNMMM
+-> MMMMMMmyo++oosyyyysoo++oydNMMMMM
+-> MMMMMMMMMNdhyssoossyydmMMMMMMMMM
 
 ---
 
--> MMMMMMMMMMMMmhyysooo+oossyhdNMMMMMMMMMMM
--> MMMMMMMMNhs++++++oooooo++++++shmMMMMMMMM
--> MMMMMMms++++oydmNNMMMMMNmdyso+++ohNMMMMM
--> MMMMms+++ohmMMMMMMMMMMMNNNMMNhs+++odMMMM
--> MMMh+++ohNMMMMMMMNmhso+///+hMMMms+++sNMM
--> MMy+++sNMMMMMMNho/::::::::/mMMMMMh+++oNM
--> Mh+++sNMMMMMms/::::::::::ommdyshMMd+++sM
--> No++oNMMMMNy/::::::::::+hy+::::+MMMy+++d
--> d+++yMMMMN+:::::::::/+s+:::::::sMMMd+++y
--> d+++hMMMM+::::::::/oo/::::::::/NMMMm+++s
--> m+++yMMMh::::::/os+/:::::::::+mMMMMd+++y
--> Mo++oNMMs:::/oyho::::::::::/yNMMMMMs+++m
--> Md+++sNMNhhmNNs::::::::::/smMMMMMMh+++yM
--> MMh+++smMMMMN+::::::::+sdNMMMMMMNy+++sNM
--> MMMdo++oymMMmsoooosydmNMMMMMMMNho+++yNMM
--> MMMMNy+++oydNMMMMMMMMMMMMMMMmyo+++smMMMM
--> MMMMMMmyo+++oshdmmNNNNNmdhso++++ymMMMMMM
--> MMMMMMMMNmyo+++++++oo+++++++oydNMMMMMMMM
--> MMMMMMMMMMMMNmdhyssssssyyhmNMMMMMMMMMMMM
-
----
 
 # Introduction
 
