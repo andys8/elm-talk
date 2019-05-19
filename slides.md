@@ -140,61 +140,114 @@ Here are the `user` fields that are most similar:
 So maybe naame should be name?
 ~~~
 
+---
+
+# Elm 0.19
+
+## Small asset size (RealWorld app)
+
+- 100kb Vue 2.5
+- 93kb Angular 6
+- 77kb React 16.4
+- 29kb Elm 0.19
+
+## Fast compilation
+
+Under 2 seconds for 50k lines of code
+From scratch
+
+[Source Blog](https://elm-lang.org/blog/small-assets-without-the-headache)
+
+---
+
+# Elm 0.19: Dead code elimination
+
+*Function-level* dead code elimination.
+
+Possible because:
+
+- Elm functions cannot be redefined or removed at runtime.
+- Every package is written entirely in Elm
+
 -------------------------------------------------
 
-# From JavaScript to Elm
+## From JavaScript to Elm
+
+[JavaScript to Elm](https://elm-lang.org/docs/from-javascript)
 
 ---
 
-TODO:
-Javascript Code -> Strikethrough -> Elm Code + Types
-In JS add is exception or undefined, in Elm it's Int
-Example with maybe, extend to be Result
+## In JavaScript
+
+~~~elm
+const name = "my-name";
+
+function add(x, y) {
+  return x + y;
+}
+
+const result = add(1, 2);
+~~~
+
+## In Elm
+
+~~~elm
+name = "my-name"
+
+add x y = x + y
+
+result = add 1 2
+~~~
 
 ---
 
-# Tuples
+## Elm (with optional type annotations)
+
+~~~elm
+name : String
+name =
+    "my-name"
+
+add : Int -> Int -> Int
+add x y =
+    x + y
+
+result : Int
+result =
+    add 1 2
+~~~
 
 ---
 
-# Records
+## A bit more syntax
 
 ---
 
-# Aliases
+## Records (like Objects)
 
----
+```elm
+type alias Point = { x:Float, y:Float }
 
-# Immutable data
-
-Explicit data flow
-
----
-
-# Currying
-
----
-
-# Pipeline Operator
-
----
-
-# Union types
-
----
-
-# Safety
-
-There is no null in Elm.
-Absence of a value -> Maybe type.
-
----
-
-# RemoteData
-
-As an example
-
+origin : Point
+origin =
+  { x = 0, y = 0 }
 ```
+
+---
+
+## Tagged Union Types
+
+```elm
+type User
+  = Regular String Int
+  | Visitor String
+```
+
+---
+
+## Parameterized Types
+
+```elm
 type RemoteData e a
     = NotAsked
     | Loading
