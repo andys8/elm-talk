@@ -21,21 +21,32 @@
 
 ---
 
--> MMMMMMMMNmhysooo+oosyhdNMMMMMMMM
--> MMMMMNds+++osyhhhhysoo++shNMMMMM
--> MMMNho+osdNMMMMMMMMMMNdyo++yNMMM
--> MMmo++ymMMMMMNmhyoooooMMNho+odMM
--> Mdo+odMMMMMds/:::::::yMNNMms++hM
--> No++dMMMMd+::::::::+hho+/hMNo++m
--> d++sMMMNs::::::::+o+/::::dMMh++y
--> h++yMMMs::::::/++/::::::oMMMd++s
--> d++sMMm::::/os+/:::::::sNMMMh++y
--> No++dMm+oshdo::::::::+dMMMMmo++m
--> Mmo+odMMMMh/::::::+ymMMMMMdo++hM
--> MMms++sdMMyssssydNNMMMMMmy++odMM
--> MMMMdo++ohmNMMMMMMMMNmhs++ohNMMM
--> MMMMMMmyo++oosyyyysoo++oydNMMMMM
--> MMMMMMMMMNdhyssoossyydmMMMMMMMMM
+~~~
+
+                     `-://+oooooo++/:-.
+                `-/osssssoooooooossssso+:`
+              -/osssoo+/:-......-:/+oossss+:`
+            -+sssoo/.`               .:+ossso/`
+          .+ssso+-           ```....``  .:ossso-
+         -osss+.         `./+osyyyyyy+    `/osss/`
+        -osss/`       `:+syyyyyyyyyyo`      -osss+
+       .osss/       `/syyyyyyyyyyyy/``.://-  .osss/
+       +sss+      `/syyyyyyyyyyyy+--+syyyy+   :ssso.
+      .ssss-     .oyyyyyyyyyyyyo/+syyyyyyy:   `osss:
+      .ssss`    `syyyyyyyyyys++oyyyyyyyyys`    osss/
+      .ssss`    oyyyyyyyyyo++syyyyyyyyyys.     osss/
+      `osss:   .yyyyyyys+:+syyyyyyyyyyyo.     `osss:
+       +ssso`  -yyyyo/--+yyyyyyyyyyyys:`      /ssso`
+       .osss/   --.`` /syyyyyyyyyyys/`       -osss:
+        -osss+`     `+yyyyyyyyyys+-`        /osss/
+         .ossso:`   -syyyysso/:.`         -+osss:
+          `/ossso:`  ```````           `-+osss+.
+            .+ossso+:.              `-/oosss+-
+              `/ossssooo/:::---::/+ooossso/.
+                 .:+osssssssoossssssso+:-`
+                     `.-://++++//::-`
+
+~~~
 
 -------------------------------------------------
 
@@ -48,6 +59,15 @@ For reliable webapps
 Generate JavaScript with
 
 _*great performance*_ and _*no runtime exceptions*_.
+
+---
+
+## Alternatives
+
+- PureScript
+- TypeScript
+- ClojureScript
+- ReasonML
 
 ---
 
@@ -349,22 +369,18 @@ Implementation and Tests
 
 # Summary
 
-TODO
+- Purpose and language features
+- JavaScript to Elm
+- The Elm Architecture
+- Ellie
+- create-elm-app
+- Vim in Elm
 
 ---
 
-## Alternatives
+## Learning Resources
 
-PureScript
-TypeScript
-ClojureScript
-ReasonML
-
----
-
-# Learning Resources
-
-## Guides, Talks and Workshops
+Guides, Talks and Workshops
 
 - [Elm Guide](https://guide.elm-lang.org)
 - [Sporto Elm Workshop](https://sporto.github.io/elm-workshop)
@@ -373,14 +389,15 @@ ReasonML
 - [Richard Feldman - Scaling Elm Apps](https://youtu.be/DoA4Txr4GUs)
 - [Life of a file](https://youtu.be/XpDsk374LDE)
 
-## Help
+---
+
+## Need Help?
 
 - [Slack](https://elmlang.herokuapp.com)
 - [Discourse](https://discourse.elm-lang.org)
+- Usually good documentation
 
 ---
-
-[@tpflug on twitter](https://twitter.com/tpflug/status/908770909305090048)
 
 > “If only I had a job writing <Haskell|purescript|Elm|X>”
 >
@@ -388,6 +405,8 @@ ReasonML
 >
 > If you ❤️ that language start teaching it.
 > Get people involved. Own it!
+
+[@tpflug (twitter)](https://twitter.com/tpflug/status/908770909305090048)
 
 ---
 
