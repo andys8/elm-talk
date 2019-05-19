@@ -208,7 +208,15 @@ Comparison to JSX
 
 # Counter Example with Elm Architecture
 
+An Elm program contains:
+
+- Model
+- Update
+- View
+
 ---
+
+## Model
 
 ```
 type alias Model =
@@ -222,7 +230,9 @@ initialModel =
 
 ---
 
-```
+## Update
+
+~~~
 type Msg
     = Increment
     | Decrement
@@ -233,11 +243,14 @@ update msg model =
     case msg of
         Increment ->
             { model | count = model.count + 1 }
+
         Decrement ->
             { model | count = model.count - 1 }
-```
+~~~
 
 ---
+
+## View
 
 ```
 view : Model -> Html Msg
@@ -250,6 +263,8 @@ view model =
 ```
 
 ---
+
+## Program
 
 ```
 main : Program () Model Msg
