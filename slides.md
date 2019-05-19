@@ -411,12 +411,10 @@ Possible Refactorings
 
 ## The Vim editor
 
-Known for "HJKL" keybindings
+[Vim](https://www.vim.org) is known for *HJKL* keybindings
 
 > Vim is a highly configurable _text editor_
 > for _efficiently_ creating and changing any kind of text.
-
-<https://www.vim.org/>
 
 ---
 
