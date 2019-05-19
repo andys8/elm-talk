@@ -1,9 +1,17 @@
 # Elm Talk
 
-## Show presentation
+## Presentation
+
+### Show slides
 
 ```shell
 mdp slides.md
+```
+
+### Show slides with inverted colors
+
+```shell
+mdp -ti slides.md
 ```
 
 ## Tools
