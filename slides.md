@@ -91,7 +91,7 @@ Data in, data out
 
 ---
 
-## Static typing
+## Strong type system
 
 At compile time
 
@@ -114,21 +114,16 @@ Here are the `user` fields that are most similar:
 So maybe naame should be name?
 ~~~
 
----
-
-# Immutable data
-
-by default
-
 -------------------------------------------------
 
 # From JavaScript to Elm
 
 ---
 
-TODO: Javascript Code -> Strikethrough -> Elm Code + Types
-TODO: In JS add is exception or undefined, in Elm it's Int
-TODO: Example with maybe, extend to be Result
+TODO:
+Javascript Code -> Strikethrough -> Elm Code + Types
+In JS add is exception or undefined, in Elm it's Int
+Example with maybe, extend to be Result
 
 ---
 
@@ -164,7 +159,8 @@ Explicit data flow
 
 # Safety
 
-Maybe
+There is no null in Elm.
+Absence of a value -> Maybe type.
 
 ---
 
@@ -184,10 +180,17 @@ type RemoteData e a
 
 ---
 
-- NotAsked - We haven't asked for the data yet.
-- Loading - We've asked, but haven't got an answer yet.
-- Failure - We asked, but something went wrong.
-- Success - Everything worked, and here's the data.
+_NotAsked_
+We haven't asked for the data yet.
+
+_Loading_
+We've asked, but haven't got an answer yet.
+
+_Failure_
+We asked, but something went wrong.
+
+_Success_
+Everything worked, and here's the data.
 
 ---
 
@@ -218,7 +221,7 @@ An Elm program contains:
 
 ## Model
 
-```
+~~~
 type alias Model =
     { count : Int }
 
@@ -226,7 +229,7 @@ type alias Model =
 initialModel : Model
 initialModel =
     { count = 0 }
-```
+~~~
 
 ---
 
@@ -294,6 +297,9 @@ Possible Refactorings
 
 # Vim in Elm
 
+- The Vim editor
+- Vim in Elm
+
 ---
 
 ## The Vim editor
@@ -307,9 +313,9 @@ Known for "HJKL" keybindings
 
 ---
 
-## Implementation in Elm
+## Demo: Vim in Elm
 
-Demo: Implementation and Tests
+Implementation and Tests
 
 - [Demo](https://andys8.github.io/vim-emulation/)
 - [Code](https://github.com/andys8/vim-emulation)
@@ -322,7 +328,7 @@ TODO
 
 ---
 
-# Alternatives
+## Alternatives
 
 PureScript
 TypeScript
@@ -333,13 +339,19 @@ ReasonML
 
 # Learning Resources
 
+## Guides, Talks and Workshops
+
+- [Elm Guide](https://guide.elm-lang.org)
+- [Sporto Elm Workshop](https://sporto.github.io/elm-workshop)
+- [Feldman Workshop](https://frontendmasters.com/courses/intro-elm)
 - [Toward a Better Front End Architecture](https://youtu.be/EDp6UmaA9CM)
 - [Richard Feldman - Scaling Elm Apps](https://youtu.be/DoA4Txr4GUs)
+- [Life of a file](https://youtu.be/XpDsk374LDE)
 
-TODO: Elm Guide
-TODO: Evan Talk
-TODO: Feldman Course
-TODO: Elm Slack
+## Help
+
+- [Slack](https://elmlang.herokuapp.com)
+- [Discourse](https://discourse.elm-lang.org)
 
 ---
 
