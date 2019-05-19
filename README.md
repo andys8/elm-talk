@@ -14,6 +14,10 @@ mdp slides.md
 mdp -ti slides.md
 ```
 
+## Asciinema
+
+[![asciicast](https://asciinema.org/a/mDAarx9MajSDww10St3CtszlJ.svg)](https://asciinema.org/a/mDAarx9MajSDww10St3CtszlJ)
+
 ## Tools
 
 * <https://github.com/visit1985/mdp>
