@@ -218,7 +218,9 @@ result =
 
 ---
 
-## A bit more syntax
+## Crash course
+
+A bit more Elm syntax
 
 ---
 
