@@ -221,9 +221,12 @@ result =
 ## Crash course
 
 Let's learn more Elm syntax
-=> It's *ML syntax*
 
-> Haskell, Standard ML, OCaml, PureScript, F#
+\======================
+\=   It's ML syntax   =
+\======================
+
+Used in Haskell, Standard ML, OCaml, PureScript, or F#
 
 
 ---
