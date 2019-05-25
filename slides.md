@@ -8,17 +8,16 @@
   - Purpose
   - Features
 - JavaScript to Elm
+  - Syntax
   - Functions
   - Types
-  - Syntax
 - Getting started
   - The Elm Architecture
   - Ellie
   - create-elm-app
-- Vim in Elm
-  - The Vim editor
-  - Implementation
-  - Tests
+- Demo and code
+  - Vim in Elm
+  - Customer project
 
 ---
 
