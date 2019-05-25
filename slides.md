@@ -200,7 +200,7 @@ result = add 1 2
 
 ---
 
-## Elm (with optional type annotations)
+## Elm with (optional) type annotations
 
 ~~~elm
 name : String
@@ -222,27 +222,6 @@ result =
 
 A bit more Elm syntax
 
----
-
-## Pipe operator |>
-
-```elm
-viewNames1 names =
-  String.join ", " (List.sort names)
-
-viewNames2 names =
-  names
-    |> List.sort
-    |> String.join ", "
-```
-^
-
-## Composition >>
-
-```elm
-viewNames3 =
-    List.sort >> String.join ", "
-```
 
 ---
 
@@ -258,17 +237,55 @@ origin =
 
 ---
 
-## Tagged Union Types
+## Custom Types (Tagged Union Types)
+
+```elm
+type Color = Red | Yellow | Green
+```
+
+^
 
 ```elm
 type User
-  = Regular String Int
-  | Visitor String
+    = Regular String Int
+    | Visitor String
 ```
 
 ---
 
-## Parameterized Types
+# Maybe
+
+```elm
+type Maybe a
+    = Just a
+    | Nothing
+```
+
+There is *no null*
+
+---
+
+# Maybe: Parse Integers
+
+Elm is telling the *truth*
+
+```elm
+String.toInt : String -> Maybe Int
+```
+
+TypeScript and Java are *lying*
+
+```ts
+declare function parseInt(s:string):number;
+```
+
+```ts
+static int parseInt(String s)
+```
+
+---
+
+## RemoteData
 
 ```elm
 type RemoteData e a
@@ -278,10 +295,7 @@ type RemoteData e a
     | Success a
 ```
 
-[RemoteData package](https://package.elm-lang.org/packages/krisajenkins/remotedata/latest/RemoteData)
-
----
-
+^
 _NotAsked_
 We haven't asked for the data yet.
 
@@ -293,6 +307,36 @@ We asked, but something went wrong.
 
 _Success_
 Everything worked, and here's the data.
+
+---
+
+# Function composition
+
+```elm
+viewNames : String -> String
+viewNames names =
+  String.join ", " (List.sort names)
+```
+
+^
+
+## Pipe operator |>
+
+```elm
+viewNames names =
+  names
+    |> List.sort
+    |> String.join ", "
+```
+
+^
+
+## Composition >>
+
+```elm
+viewNames =
+    List.sort >> String.join ", "
+```
 
 -------------------------------------------------
 
@@ -427,39 +471,30 @@ Possible Changes:
 
 -------------------------------------------------
 
-# Vim in Elm
-
-- The Vim editor
-- Vim in Elm
-
----
-
-## The Vim editor
-
-[Vim](https://www.vim.org) is known for *HJKL* keybindings
+## DEMO 1: Vim in Elm
 
 > Vim is a highly configurable _text editor_
 > for _efficiently_ creating and changing any kind of text.
 
----
+[Vim](https://www.vim.org) is known for *HJKL* keybindings
 
-## Demo: Vim in Elm
+[Demo](https://andys8.github.io/vim-emulation/) and [Code](https://github.com/andys8/vim-emulation)
 
-Implementation and Tests
+-------------------------------------------------
 
-- [Demo](https://andys8.github.io/vim-emulation/)
-- [Code](https://github.com/andys8/vim-emulation)
+## DEMO 2: Customer application
+
+Elm dashboard application for a customer
 
 -------------------------------------------------
 
 # Summary
 
-- Purpose and language features
+- Language features and benefits
 - JavaScript to Elm
 - The Elm Architecture
-- Ellie
-- create-elm-app
-- Vim in Elm
+- Tools like Ellie or create-elm-app
+- Demo time with Vim in Elm
 
 ---
 
