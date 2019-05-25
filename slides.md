@@ -220,7 +220,10 @@ result =
 
 ## Crash course
 
-A bit more Elm syntax
+Let's learn more Elm syntax
+=> It's *ML syntax*
+
+> Haskell, Standard ML, OCaml, PureScript, F#
 
 
 ---
