@@ -19,25 +19,24 @@
 
 # Agenda
 
-- Elm
-  - Purpose
-  - Features
-- JavaScript to Elm
-  - Syntax
-  - Functions
-  - Types
-- Getting started
-  - The Elm Architecture
-  - Ellie
-  - create-elm-app
-- Demo and code
-  - Vim in Elm
-  - Customer project
+* Elm
+  * Purpose
+  * Features
+* JavaScript to Elm
+  * Syntax
+  * Functions
+  * Types
+* Getting started
+  * The Elm Architecture
+  * Ellie
+  * create-elm-app
+* Demo and code
+  * Vim in Elm
+  * Customer project
 
 ---
 
 ~~~
-
                      .://+ooosoo++/:-`
                 `:+ssssssoooooossssss+:.
               .+sssso/-.``     `.-/+ossso:`
@@ -57,7 +56,6 @@
               ./ossso+:-..`````.-:+ossss/.
                 `./osssssssoossssssso/-`
                     `.-:/++++++//:.`
-
 ~~~
 
 -------------------------------------------------
@@ -108,7 +106,6 @@ Growing as developers
 [From Rails to Elm and Haskell](https://youtu.be/5CYeZ2kEiOI)
 by Richard Feldman
 
-
 ---
 
 ## Pure functions
@@ -121,9 +118,9 @@ Data *in*, data *out*
 \             +--------------+
 
 
-- No side effects
-- Referential transparency
-- Testable
+* No side effects
+* Referential transparency
+* Testable
 
 ---
 
@@ -158,10 +155,10 @@ So maybe naame should be name?
 
 ## Small asset size (RealWorld app)
 
-- 100kb Vue 2.5
-- 93kb Angular 6
-- 77kb React 16.4
-- 29kb Elm 0.19
+* 100kb Vue 2.5
+* 93kb Angular 6
+* 77kb React 16.4
+* 29kb Elm 0.19
 
 ## Fast compilation
 
@@ -178,8 +175,8 @@ From scratch
 
 Possible because:
 
-- Elm functions cannot be redefined or removed at runtime.
-- Every package is written entirely in Elm
+* Elm functions cannot be redefined or removed at runtime.
+* Every package is written entirely in Elm
 
 -------------------------------------------------
 
@@ -241,7 +238,6 @@ Let's learn more Elm syntax
 \======================
 
 Used in Haskell, Standard ML, OCaml, PureScript, or F#
-
 
 ---
 
@@ -362,9 +358,9 @@ viewNames =
 
 # Getting started
 
-- The Elm Architecture
-- Ellie
-- Create-Elm-App
+* The Elm Architecture
+* Ellie
+* Create-Elm-App
 
 ---
 
@@ -372,9 +368,9 @@ viewNames =
 
 An Elm program contains:
 
-- Model
-- Update
-- View
+* Model
+* Update
+* View
 
 ---
 
@@ -471,10 +467,10 @@ main =
 
 Possible Changes:
 
-- Add *Reset* button
-- Add Msg `ChangeWith (Int -> Int)`
-- Refactor buttons to use ChangeWith
-- Add *Double* button
+* Add *Reset* button
+* Add Msg `ChangeWith (Int -> Int)`
+* Refactor buttons to use ChangeWith
+* Add *Double* button
 
 ---
 
@@ -482,12 +478,12 @@ Possible Changes:
 
 [Create-Elm-App User Guide](https://github.com/halfzebra/create-elm-app/blob/master/template)
 
-- No build configuration
-- Like `create-react-app`
-- Webpack based
-- Hot module reloading
-- Assets, CSS, and JS
-- Tests
+* No build configuration
+* Like `create-react-app`
+* Webpack based
+* Hot module reloading
+* Assets, CSS, and JS
+* Tests
 
 -------------------------------------------------
 
@@ -510,11 +506,11 @@ Elm dashboard application for a customer
 
 # Summary
 
-- Language features and benefits
-- JavaScript to Elm
-- The Elm Architecture
-- Tools like Ellie or create-elm-app
-- Demo time with Vim in Elm
+* Language features and benefits
+* JavaScript to Elm
+* The Elm Architecture
+* Tools like Ellie or create-elm-app
+* Demo time with Vim in Elm
 
 ---
 
@@ -522,20 +518,20 @@ Elm dashboard application for a customer
 
 Guides, Talks and Workshops
 
-- [Elm Guide](https://guide.elm-lang.org)
-- [Sporto Elm Workshop](https://sporto.github.io/elm-workshop)
-- [Feldman Workshop](https://frontendmasters.com/courses/intro-elm)
-- [Toward a Better Front End Architecture](https://youtu.be/EDp6UmaA9CM)
-- [Richard Feldman - Scaling Elm Apps](https://youtu.be/DoA4Txr4GUs)
-- [Life of a file](https://youtu.be/XpDsk374LDE)
+* [Elm Guide](https://guide.elm-lang.org)
+* [Sporto Elm Workshop](https://sporto.github.io/elm-workshop)
+* [Feldman Workshop](https://frontendmasters.com/courses/intro-elm)
+* [Toward a Better Front End Architecture](https://youtu.be/EDp6UmaA9CM)
+* [Richard Feldman - Scaling Elm Apps](https://youtu.be/DoA4Txr4GUs)
+* [Life of a file](https://youtu.be/XpDsk374LDE)
 
 ---
 
 ## Help
 
-- [Slack](https://elmlang.herokuapp.com)
-- [Discourse](https://discourse.elm-lang.org)
-- Usually good documentation
+* [Slack](https://elmlang.herokuapp.com)
+* [Discourse](https://discourse.elm-lang.org)
+* Usually good documentation
 
 ---
 
