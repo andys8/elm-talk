@@ -16,7 +16,7 @@ mdp -ti slides.md
 
 ## Asciinema
 
-[![asciicast](https://asciinema.org/a/mDAarx9MajSDww10St3CtszlJ.svg)](https://asciinema.org/a/mDAarx9MajSDww10St3CtszlJ)
+[![asciicast](https://asciinema.org/a/dKU38g6TOSoWXRUeAvoWSHZJx.svg)](https://asciinema.org/a/dKU38g6TOSoWXRUeAvoWSHZJx)
 
 ## Tools
 
