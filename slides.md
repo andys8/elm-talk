@@ -1,6 +1,21 @@
 %title: Functional Programming with Elm
-%author: andys8 - jambit.com
+%author: @_andys8 - jambit.com
 %date: 2019
+
+┏━╸╻ ╻┏┓╻┏━╸╺┳╸╻┏━┓┏┓╻┏━┓╻
+┣╸ ┃ ┃┃┗┫┃   ┃ ┃┃ ┃┃┗┫┣━┫┃
+╹  ┗━┛╹ ╹┗━╸ ╹ ╹┗━┛╹ ╹╹ ╹┗━╸
+┏━┓┏━┓┏━┓┏━╸┏━┓┏━┓┏┳┓┏┳┓╻┏┓╻┏━╸
+┣━┛┣┳┛┃ ┃┃╺┓┣┳┛┣━┫┃┃┃┃┃┃┃┃┗┫┃╺┓
+╹  ╹┗╸┗━┛┗━┛╹┗╸╹ ╹╹ ╹╹ ╹╹╹ ╹┗━┛
+╻┏┓╻  ┏━╸╻  ┏┳┓
+┃┃┗┫  ┣╸ ┃  ┃┃┃
+╹╹ ╹  ┗━╸┗━╸╹ ╹
+
+* [Twitter](https://twitter.com/_andys8)
+* [Github](https://github.com/andys8)
+
+---
 
 # Agenda
 
