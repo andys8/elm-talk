@@ -553,3 +553,12 @@ _Try out_ Elm.
 1. Find a *low-risk project* that's a good fit
 2. Get it *into production*
 3. *Expand* incrementally or *back out*
+
+---
+
+## Thank you
+
+Slides on [Github](https://github.com/andys8/elm-talk)
+Code on [Github](https://github.com/andys8/vim-emulation)
+
+Twitter: [@_andys8](https://twitter.com/_andys8) and [@jambit](https://twitter.com/jambit)
