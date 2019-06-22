@@ -2,6 +2,8 @@
 
 ## Presentation
 
+> Elm is a pure functional language for web applications. Let's learn about the Elm architecture which inspired Redux and get a crash course into the language. There's no null, no runtime exceptions and applications will be reliable and pretty damn fast. A code demo will exemplify how we use Elm in customer projects and a side project: How to implement Vim in Elm ... and why?
+
 ### Show slides
 
 ```shell
