@@ -84,8 +84,9 @@ _*great performance*_ and _*no runtime exceptions*_.
 ## Elm
 
 A pure functional language
-Everything is immutable
 Functions have no side effects
+Focus on simplicity
+Everything is immutable
 
 ---
 
@@ -289,7 +290,7 @@ Elm is telling the *truth*
 String.toInt : String -> Maybe Int
 ```
 
-TypeScript and Java are *lying*
+TypeScript and Java are *hiding* `NaN/NumberFormatException`
 
 ```ts
 declare function parseInt(s:string):number;
