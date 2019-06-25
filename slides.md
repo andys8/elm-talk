@@ -330,7 +330,7 @@ Everything worked, and here's the data.
 # Function composition
 
 ```elm
-viewNames : String -> String
+viewNames : List String -> String
 viewNames names =
   String.join ", " (List.sort names)
 ```
