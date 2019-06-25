@@ -290,13 +290,10 @@ Elm is telling the *truth*
 String.toInt : String -> Maybe Int
 ```
 
-TypeScript and Java are *hiding* `NaN/NumberFormatException`
+TypeScript and Java are *hiding* `NaN` / `NumberFormatException`
 
-```ts
-declare function parseInt(s:string):number;
 ```
-
-```ts
+declare function parseInt(s:string):number;
 static int parseInt(String s)
 ```
 
