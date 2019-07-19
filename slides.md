@@ -459,7 +459,7 @@ main =
 
 ---
 
-## Demo: Counter
+## DEMO 0: Counter
 
 [Ellie: Counter implementation](https://ellie-app.com/5zSqhMHGcTya1)
 
@@ -498,7 +498,7 @@ Possible Changes:
 
 ## DEMO 2: Customer application
 
-Elm dashboard application for a customer
+Elm chat-engine application for a customer
 
 -------------------------------------------------
 
